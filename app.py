@@ -69,36 +69,3 @@ df['Salary'].hist(bins=10, ax=ax, color='skyblue')
 ax.set_xlabel("Salary")
 ax.set_ylabel("Count")
 st.pyplot(fig)
-
-
-# st.markdown("Enter the following details to predict your salary:")
-# ... (all your existing code for the app)
-
-footer="""<style>
-a:link, a:visited{
-color: #7EC8E3;
-background-color: transparent;
-text-decoration: ;
-}
-
-# a:,  a:active {
-# color: red;
-# background-color: transparent;
-# text-decoration: ;
-# }
-
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: Black;
-color: #7EC8E3;
-text-align: center;
-}
-</style>
-<div class="footer">
-<p>Developed with❤️by <a style='display:; text-align: center;' href="https://github.com/ikshitjain">Ik😎</a></p>
-</div>
-"""
-st.markdown(footer, unsafe_allow_html=True)
